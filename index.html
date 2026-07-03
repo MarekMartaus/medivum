@@ -2,18 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Medivum</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Medivum</h1>
-  <p>Personal medical records, vaccinations, doctor visits and reminders.</p>
+  <header>
+    <img src="logo.png" alt="Medivum logo" class="logo">
+    <h1>Medivum</h1>
+    <p class="subtitle">Personal medical records, vaccinations, doctor visits and reminders.</p>
+    <nav>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+    </nav>
+  </header>
 
-  <h2>Documents</h2>
-  <ul>
-    <li><a href="privacy.html">Privacy Policy</a></li>
-    <li><a href="terms.html">Terms of Use</a></li>
-  </ul>
+  <main>
+    <section class="card">
+      <h2>Documents</h2>
+      <p>Select your preferred language.</p>
+      <div class="grid">
+        <a class="button" href="privacy-en.html">Privacy Policy – English</a>
+        <a class="button" href="privacy-cs.html">Zásady ochrany soukromí – Čeština</a>
+        <a class="button" href="privacy-sk.html">Zásady ochrany súkromia – Slovenčina</a>
+        <a class="button" href="privacy-de.html">Datenschutzerklärung – Deutsch</a>
+        <a class="button" href="terms-en.html">Terms of Use – English</a>
+        <a class="button" href="terms-cs.html">Podmínky používání – Čeština</a>
+        <a class="button" href="terms-sk.html">Podmienky používania – Slovenčina</a>
+        <a class="button" href="terms-de.html">Nutzungsbedingungen – Deutsch</a>
+      </div>
+    </section>
 
-  <p>Contact: marek.martaus@gmail.com</p>
+    <section class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:support@medivum.app">support@medivum.app</a></p>
+    </section>
+  </main>
+
+  <footer>© 2026 Medivum</footer>
 </body>
 </html>
